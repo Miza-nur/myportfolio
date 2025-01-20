@@ -173,4 +173,14 @@ table td{
     margin-top: 15%;
 }
 
+/* thirddiv */
 
+.bodydiv1{
+    display: flex;
+}
+
+.bodydiv1 div{
+    width: 40%;
+    margin: 4%;
+    border: 1px solid wheat;
+}
