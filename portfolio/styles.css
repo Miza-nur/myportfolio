@@ -175,12 +175,41 @@ table td{
 
 /* thirddiv */
 
+.thirdsection{
+    background-color: black;
+    color: #fff;
+    padding: 1px;
+}
+.titledivs{
+    margin: 5%;
+}
 .bodydiv1{
     display: flex;
+    margin-top: 2%;
 }
 
 .bodydiv1 div{
     width: 40%;
-    margin: 4%;
+    margin: 2%;
+    margin-left: 5%;
     border: 1px solid wheat;
+    
+}
+.overview p,h4{
+    
+    margin-left: 4% ;
+}
+
+.overview div{
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    border: none;
+    
+
+}
+.overview div>h5{
+    margin-left: 50%;
+    size: 20px;
+    font-size: 15px;
 }
