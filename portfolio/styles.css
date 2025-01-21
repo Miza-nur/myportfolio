@@ -179,6 +179,7 @@ table td{
     background-color: black;
     color: #fff;
     padding: 1px;
+    padding-bottom: 50px;
 }
 .titledivs{
     margin: 5%;
@@ -213,3 +214,34 @@ table td{
     size: 20px;
     font-size: 15px;
 }
+/* fourthSection */
+.fourthSection{
+    background-color: #2e2d2d;
+    margin: 0px;
+    padding: 1px;
+    color: #fff;
+
+}
+.serviceheader{
+    margin: 5%;
+}
+.servicebody{
+    display: flex;
+    margin: 5%;
+}
+.servicecard{
+    width: 30%;
+    height: 300px;
+    border: 1px solid #fff;
+    margin: 2%;
+    
+
+}
+.card{
+    width: 100%;
+    height: 100%;
+    margin: 7%;
+    
+    
+}
+
