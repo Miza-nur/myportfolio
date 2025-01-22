@@ -2,22 +2,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital&display=swap');
 
 *{
-    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    
 }
-.headsection{
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    margin: 0%;
+body{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }
 .navbar{
     height:100%;
-    width: 25%;
+    width: 200px;
     margin-left: 0px;
     margin-bottom: 0px;
     background-color:cadetblue;
-    position: relative;
+    position: fixed;
   
 
 }
@@ -30,13 +31,21 @@ img{
     margin-left: 50px;
     
 }
+
+.headsection{
+    
+    height: 100%;
+    position: absolute;
+    display: flex;
+    margin-left: 200px;
+    margin-right: 0px;
+}
 .herosection{
-    width: 75%;
+    width: 100%;
     position: relative;
     background-color: #fff;
     margin-top: 0%;
-    margin-right: 0%;
-
+    
  
 }
 
@@ -234,14 +243,46 @@ table td{
     height: 300px;
     border: 1px solid #fff;
     margin: 2%;
-    
 
 }
+.servicecard>h4{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
 .card{
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 80%;
     margin: 7%;
-    
-    
+  
 }
 
+/* fifth section */
+.fifthSection{
+    background-color: black;
+    color: #fff;
+    padding: 1px;
+}
+.fifthtitle{
+    margin: 5%;
+}
+.fifthbody{
+    display: flex;
+    margin: 5%;
+}
+
+.projectcard{
+    width: 30%;
+    height: 400px;
+    
+    margin: 2%;
+}
+.divimg{
+    width: 100%;
+    height: 80%;
+    border: 1px solid white;
+    border-radius: 0%;
+    background-image: url('./img/card.jpeg');
+    background-repeat: no-repeat;
+    
+}
