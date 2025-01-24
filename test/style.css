@@ -72,6 +72,11 @@ img{
     color: #fff;
     padding-bottom: 10px;
 }
+.serviceheader p{
+   
+    margin-left: 5%;
+    padding-top: 10px;   
+}
 
 .servicebody{
     width: 99%;
