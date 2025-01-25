@@ -81,18 +81,39 @@ img{
     height: 100%;
     margin: 4%;
 }
+
+.leftdiv p{
+    margin: 5%;
+    font-size: xx-large;
+}
+.leftdiv div{
+    margin: 7%;
+    font-size: xx-large;
+    height: 60px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #313949;
+    text-align: center;
+}
 .rightdiv{
     width: 58%;
     height: 100%;
-    margin: 4%;
-    text-align: justify;
+    margin: 4%; 
+}
+.div3{
+    justify-items: center;
+}
+.div3 h1{
+    margin-top: 50px;
 }
 
 .bottomdiv{
     display: flex;
+    
 }
 .div3{
-    width: 200px;
+    width: 220px;
     height: 180px;
     border: 1px solid;
     border-radius: 5px;
@@ -108,10 +129,15 @@ table{
     text-align: left;
     margin-top: 10%;
     font-weight: bold;
-}
-table tr{
-    height: 40px
+    border-bottom: 1px solid #ddd;
     
+}
+.table th{
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+} 
+.table tr{
+    height: 40px
     
 } 
 
