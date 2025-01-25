@@ -62,6 +62,96 @@ img{
 .social-icon i:hover{
     color: white;
 }
+/* myself section */
+.container6{
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+    background-color: black;
+    display: block;
+    color: #fff;
+}
+.topdiv{
+    width: 99%;
+    height: 60%;
+    display: flex;
+}
+.leftdiv{
+    width: 38%;
+    height: 100%;
+    margin: 4%;
+}
+.rightdiv{
+    width: 58%;
+    height: 100%;
+    margin: 4%;
+    text-align: justify;
+}
+
+.bottomdiv{
+    display: flex;
+}
+.div3{
+    width: 200px;
+    height: 180px;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    background-color: #578BF0;
+}
+table{
+    
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    margin-top: 10%;
+    font-weight: bold;
+}
+table tr{
+    height: 40px
+    
+    
+} 
+
+/* Professional Experience section */
+.container5{
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+    background-color: #2e2d2d;
+    display: block;
+    color: #fff;
+    padding-bottom: 10px;
+    padding-top: 20px; 
+}
+.titledivs>p{
+    margin-left: 5%;
+}
+.bodydiv1{
+    height: 100%;
+    display: flex;
+    margin: 4%;
+}
+.overview{
+    display: flex;
+    margin-left: 12%;
+    width: 30%;
+    height: 350px;
+    border: 1px solid white
+    
+}
+.overview{
+    display: block;
+}
+.overview p,h4,h2{
+    margin: 7%;
+}
+
+.overview h4{
+    color: aqua;
+}
 /* My Services section start */
 .container4{
     width: 80%;
