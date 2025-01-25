@@ -62,6 +62,84 @@ img{
 .social-icon i:hover{
     color: white;
 }
+/* front section */
+.container7{
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+    background-color: #2e2d2d;
+    display: flex;
+    color: #fff;
+}
+
+.titlediv{
+    position: relative;
+    width: 40%;
+    margin: 5%;
+    margin-top: 10%;
+    color: #fff;
+    
+}
+.titlediv p{
+    margin-top: 5px;
+    text-align: justify;
+}
+.imgdiv{
+    position: relative;
+    margin-top: 5%;
+    
+}
+.imgdiv img{
+    border-radius: 0%;
+    background-size: cover;
+    height: 80vh;
+    width: 76vh;
+    
+
+}
+
+.address{
+    margin-top: 5%;
+    border-left: 5px solid white;
+    background-color: rgba(39, 32, 32, 0.651);
+    opacity: 80%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+
+}
+.address p{
+    
+    margin-left: 10px;
+
+}
+.button{
+    margin-top: 20%;
+    margin-bottom: 10%;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    
+}
+#btn1{
+border: 1px solid whitesmoke;
+width: 50%;
+text-align:center;
+padding-top: 5px;
+height: 30px;
+border-radius: 5px;
+background-color: #3665f0ff;    
+}
+#btn2{
+padding-top: 5px;
+border: 1px solid whitesmoke;
+width: 50%;
+text-align:center ;
+height: 30px;
+margin-left: 20px;
+border-radius: 5px;
+}
+
 /* myself section */
 .container6{
     width: 80%;
@@ -89,7 +167,7 @@ img{
 .leftdiv div{
     margin: 7%;
     font-size: xx-large;
-    height: 60px;
+    height: 50px;
     width: 200px;
     border: 1px solid;
     border-radius: 5px;
