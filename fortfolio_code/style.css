@@ -520,6 +520,28 @@ a{
     .navbar{
         width: 18%;
     }
+    img{
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-left: 30px;  
+    }
+    
+    .navbar h4{
+        font-size: 15px;
+        margin: 10%;
+    }
+    
+    .social-icon{
+        margin-top: 20%;
+        margin-left: 4%;
+    }
+    .social-icon i{
+        font-size: x-large;
+    }
+    
+    /* navbar end */
     .container7{
         width: 82%;
         margin-left: 18%;
@@ -551,11 +573,15 @@ a{
     }
     .rightdiv{
         margin-left: 0%;
-        width: 65%;
-        margin-left: 0%
+        width: 60%;
+    
     }
     .leftdiv h1{
         font-size: medium;
+    }
+    .rightdiv p{
+        margin-right: 7px;
+        
     }
     .rightdiv p{
         font-size: 15px;
@@ -636,7 +662,91 @@ a{
     .card h1{
         font-size: large;
     }
+    .container3{
+        width: 82%;
+        margin-left: 18%;
+    }
     
+    .fifthbody{
+        font-size: 15px;
+    }
+    .projectcard{
+        width: 24%;
+        height: 220px;
+        margin-left: 5%;
+    }
+    .container2{
+        width: 82%;
+        margin-left: 18%;   
+    }
+    
+    
+    /* review section end*/
+    /* contact section  start*/
+    
+    .container1{
+        width: 82%;
+        margin-left: 18%;
+    }
+    .contactdiv p{
+        margin-top: 10px;
+        text-align: justify;
+    
+    }
+    .location p,i{
+        margin-top: 0px;
+        font-size: 12px;
+    }
+    .emaildiv{
+        margin-top: 12%;
+    }
+    form input{
+        width: 80%;
+        margin-top : 5%;
+        height: 35px;    
+    }
+    form textarea{
+        width: 80%;
+        margin-top : 5%;
+        height: 100px;
+    }
+    #submit{
+        width: 40%;
+        border-radius: 5px;
+        text-align: center;
+    }
+    #submit:hover{
+        background-color: rgb(12, 199, 152);
+    }
+    /* contact section end*/
+    .container0{
+        width: 82%;
+        margin-left: 18%;
+    }
+    .footer-container{
+        margin: 0%;
+    }
+    .footer-container a,i,p,li{
+        font-size: 10px;
+    }
+    
+    .footer h3{
+        margin-bottom: 8px;
+    }
+    
+    .footer-bottom {
+        margin-top: 20px;
+        border-top: 1px solid #444;
+        padding-top: 10px;
+        width: 100%;
+    }
+    
+    .footer-bottom p {
+        margin: 3px 0;
+    }
+    
+    
+    /* footer section end */
 
     
     
