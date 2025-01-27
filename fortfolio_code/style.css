@@ -105,8 +105,6 @@ img{
     opacity: 80%;
     padding-top: 10px;
     padding-bottom: 10px;
-    
-
 }
 .address p{
     
@@ -163,12 +161,14 @@ border-radius: 5px;
 .leftdiv p{
     margin: 5%;
     font-size: xx-large;
+    color: rgb(148, 231, 195);
 }
 .leftdiv div{
     margin: 7%;
-    font-size: xx-large;
-    height: 50px;
-    width: 200px;
+    margin-top: 10%;
+    font-size: x-large;
+    height: 40px;
+    width: 180px;
     border: 1px solid;
     border-radius: 5px;
     background-color: #313949;
@@ -195,9 +195,9 @@ border-radius: 5px;
     height: 180px;
     border: 1px solid;
     border-radius: 5px;
-    margin-left: 10%;
+    margin-left: 9%;
     margin-bottom: 10%;
-    margin-top: 5%;
+    
     background-color: #578BF0;
 }
 table{
@@ -213,11 +213,14 @@ table{
 .table th{
     border-bottom: 1px solid #ddd;
     text-align: left;
-} 
-.table tr{
-    height: 40px
     
 } 
+.table tr{
+    height: 40px  
+} 
+.table td{
+    font-size: 13px;  
+}
 
 /* Professional Experience section */
 .container5{
@@ -254,7 +257,8 @@ table{
 }
 
 .overview h4{
-    color: aqua;
+    color: rgb(148, 231, 195);
+    
 }
 /* My Services section start */
 .container4{
@@ -279,7 +283,7 @@ table{
 }
 .servicecard{
     width: 28%;
-    height: 350px;
+    height: 340px;
     margin: 3%;
     margin-left: 5%;
     border: 1px solid white;
@@ -288,11 +292,15 @@ table{
 .card{
     margin: 5%;
     width: 95%;
-    height: 85%;
+    height: 83%;
     text-align: left;
 }
-.card p,h1{
+.card p{
     margin: 6%;
+}
+.card h1{
+    font-size: x-large;
+
 }
 
 /*  Projects Showcase start */
@@ -318,6 +326,7 @@ table{
     width: 99%;
     height: 80%;
     display: flex;
+    font-size: large;
 }
 .projectcard{
     width: 28%;
@@ -329,6 +338,7 @@ table{
     height: 100%;
     width: 100%;
     background-image: url("../portfolio/img/card.jpeg");
+    border: 1px solid white;
 }
 .projectcard>p{
     margin-top: 7px;
@@ -352,13 +362,18 @@ table{
     margin: 5%;
    
 }
-.contactdiv p,h1{
+.contactdiv p{
     margin-top: 15px;
     text-align: justify;
 
 }
+.contactdiv h1{
+    margin-left: 0%;
+
+}
+
 .location{
-    margin-top: 15px;
+    margin-top: 50px;
 }
 .location p,i{
     margin-top: 0px;
@@ -463,6 +478,8 @@ form textarea{
     flex-wrap: wrap;
     max-width: 1200px;
     margin: 0 auto;
+    text-align: left;
+
 }
 
 .footer-container div {
@@ -497,3 +514,132 @@ a{
 }
 
 /* footer section end */
+
+/* media Quary */
+@media (max-width: 800px) {
+    .navbar{
+        width: 18%;
+    }
+    .container7{
+        width: 82%;
+        margin-left: 18%;
+    }.titlediv{
+        font-size: 10px;
+        
+    }
+    .imgdiv img{
+        height: 70vh;
+        width: 50vh;
+        
+    }
+    .container6{
+        width: 82%;
+        margin-left: 18%;
+        
+    }
+    .leftdiv{
+        width: 35%;
+    }
+    .leftdiv p{
+        font-size: large;
+        
+    }
+    .leftdiv div{
+        font-size: 15px;
+        height: 30px;
+        width: 100px; 
+    }
+    .rightdiv{
+        margin-left: 0%;
+        width: 65%;
+        margin-left: 0%
+    }
+    .leftdiv h1{
+        font-size: medium;
+    }
+    .rightdiv p{
+        font-size: 15px;
+        text-align: justify;
+
+    }
+    .div3 h1{
+        margin-top: 17px;
+    }
+    .div3 p{
+        font-size: 13px;
+    }
+    .div3{
+        width: 150px;
+        height: 120px;
+        margin-left: 6%;
+        
+    }
+    .table th{
+        font-size: 10px;
+    }  
+    .table td{
+        font-size: 10px;  
+    }
+    
+    /* Professional Experience section */
+    .container5{
+        width: 82%;
+        margin-left: 18%; 
+    }
+    .titledivs{
+        font-size: 15px;
+    }
+    .overview{
+        display: flex;
+        margin-left: 12%;
+        width: 30%;
+        height: 250px; 
+    }
+    .overview{
+        display: block;
+    }
+    .overview p,h2{
+        margin: 7%;
+        font-size: 12px;
+    }
+    
+    .overview h4{
+        color: rgb(148, 231, 195);
+        margin: 7%;
+        font-size: 13px;
+    }
+    /* My Services section start */
+    .container4{
+        width: 82%;
+        margin-left: 18%;
+        padding-bottom: 10px;
+    }
+    .serviceheader p{
+        margin-left: 5%;
+        padding-top: 15px;   
+    }
+    .servicecard{
+        width: 25%;
+        height: 300px;
+        margin: 3%;
+    }
+    
+    .card{
+        margin: 5%;
+        width: 95%;
+        height: 83%;
+        text-align: left;
+    }
+    .card p{
+        margin: 7%;
+    }
+    .card h1{
+        font-size: large;
+    }
+    
+
+    
+    
+
+
+}
