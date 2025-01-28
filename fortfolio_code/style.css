@@ -956,13 +956,8 @@ table{
 }
 /* My Services section start */
 .container4{
-    width: 80%;
-    height: 100%;
-    margin-left: 20%;
-    background-color: black;
-    display: block;
-    color: #fff;
-    padding-bottom: 10px;
+    width: 100%;
+    margin-left: 0%;
 }
 .serviceheader p{
    
@@ -971,14 +966,13 @@ table{
 }
 
 .servicebody{
-    width: 99%;
-    height: 100%;
-    display: flex; 
+    width: 100%;
+    display: block; 
 }
 .servicecard{
-    width: 28%;
-    height: 340px;
-    margin: 3%;
+    width: 80%;
+    height: 200px;
+    margin: 10%;
     margin-left: 5%;
     border: 1px solid white;
 }
@@ -986,26 +980,20 @@ table{
 .card{
     margin: 5%;
     width: 95%;
-    height: 83%;
+    height: 60%;
     text-align: left;
 }
 .card p{
-    margin: 6%;
+    margin: 7%;
 }
 .card h1{
     font-size: x-large;
-
 }
 
 /*  Projects Showcase start */
 .container3{
-    width: 80%;
-    height: 100%;
-    margin-left: 20%;
-    background-color: #2e2d2d;
-    display: block;
-    color: #fff;
-    padding-bottom: 100px;
+    width: 100%;
+    margin-left: 0%;
 }
 .thirdtitle{
     width: 80%;
@@ -1018,15 +1006,15 @@ table{
 }
 .fifthbody{
     width: 99%;
-    height: 80%;
-    display: flex;
+    display: block;
     font-size: large;
+    margin-top: 0px;
 }
 .projectcard{
-    width: 28%;
-    height: 300px;
-    margin: 2%;
-    margin-left: 5%;
+    width: 80%;
+    height: 200px;
+    margin-top: 15%;
+    margin-left: 10%;
 }
 .divimg{
     height: 100%;
@@ -1042,23 +1030,23 @@ table{
 /* contact section  start*/
 
 .container1{
-    width: 80%;
-    height: 100%;
-    margin-left: 20%;
+    width: 100%;
+    margin-left:0%;
     background-color: #2e2d2d;
-    display: flex;
+    display: block;
     color: #fff;
+    border: 1px solid #2e2d2d;
     
 }
 .contactdiv{
-    width: 50%;
-    height: 100%;
+    width: 90%;
     margin: 5%;
    
 }
 .contactdiv p{
     margin-top: 15px;
     text-align: justify;
+    font-size: 10px;
 
 }
 .contactdiv h1{
@@ -1074,7 +1062,7 @@ table{
 }
 
 .emaildiv{
-    width: 50%;
+    width: 90%;
     height: 100%;
     margin: 3%;   
 }
@@ -1113,25 +1101,24 @@ form textarea{
 /* contact section end*/
 /* review section start*/
 .container2{
-    width: 80%;
-    height: 100%;
-    margin-left: 20%;
+    width: 100%;
+    margin-left: 0%;
     background-color: black;
     color: #fff;
     justify-items: center;
     padding-bottom: 100px;
-    display: block;   
+    display: flex;   
 }
 
 .reviewtitle{
     border: 1px solid black;
     width: 50%;
-    height: 20%;
-    text-align: center;
+    text-align: left;
     justify-items: center;   
 } 
 .reviewtitle p{
     margin-top: 5%;
+    
     
 }
 .comment{
@@ -1156,9 +1143,8 @@ form textarea{
 /* review section end*/
 /* footer section start */
 .container0{
-    width: 80%;
-    height: 100%;
-    margin-left: 20%;
+    width: 100%;
+    margin-left: 0%;
     background-color: black;
     color: #fff;
     justify-items: center;
